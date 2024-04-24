@@ -11,6 +11,7 @@ return {
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
         "ruff_lsp",
+        "pyright",
       })
     end,
   },
@@ -26,7 +27,6 @@ return {
         "stylua",
         "autoflake",
         "flake8",
-        "pyright",
       })
     end,
   },

@@ -59,6 +59,15 @@ return {
               analysis = {
                 typeCheckingMode = "off",
               },
+              diagnostics = {
+                reportGeneralTypeIssues = "off",
+                reportMissingImports = "off",
+                reportMissingTypeStubs = "off",
+                reportUnusedFunction = "off",
+                reportUnusedImport = "off",
+                reportUnusedVariable = "off",
+                reportArgumentType = "off",
+              },
             },
           },
         }
