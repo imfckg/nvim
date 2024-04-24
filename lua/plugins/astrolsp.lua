@@ -52,6 +52,7 @@ return {
 
       -- the key is the server that is being setup with `lspconfig`
       -- rust_analyzer = false, -- setting a handler to false will disable the set up of that language server
+      ---@diagnostic disable-next-line: unused-local
       pyright = function(_, opts)
         require("lspconfig").pyright.setup {
           settings = {
