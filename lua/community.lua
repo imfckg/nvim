@@ -28,5 +28,6 @@ return {
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+  { import = "astrocommunity.neovim-lua-development.lazydev-nvim" },
   -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 }
